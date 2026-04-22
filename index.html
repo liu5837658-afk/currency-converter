@@ -6,7 +6,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="format-detection" content="telephone=no" />
-  <title>汇率转换工具</title>
+  <title>出发团伙专用汇率转换器</title>
   <style>
     :root {
       --bg: #0f1117;
@@ -337,8 +337,8 @@
 <body>
 
 <header>
-  <h1>💱 汇率转换工具</h1>
-  <p>中 · 美 · 日 · 韩 · 新加坡 · 泰国</p>
+  <h1>🌍 出发团伙专用汇率转换器</h1>
+  <p>出发团伙 · 中美日韩新泰</p>
   <div class="update-time">
     <span class="dot"></span>
     <span id="update-label">汇率加载中...</span>
@@ -561,8 +561,8 @@
   /* ── 分享功能 ── */
   function shareApp() {
     var url = location.href;
-    var title = '💱 汇率转换工具 - 中美日韩新泰';
-    var desc = '支持人民币、美元、日元、韩元、新加坡元、泰铢实时汇率转换';
+    var title = '🌍 出发团伙专用汇率转换器';
+    var desc = '中美日韩新泰实时汇率转换';
 
     if (navigator.share) {
       navigator.share({ title: title, text: desc, url: url }).catch(function() {});
