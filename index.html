@@ -6,7 +6,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="format-detection" content="telephone=no" />
-  <title>出发团伙专用汇率转换器</title>
+  <title>出发团伙工具箱</title>
   <style>
     :root {
       --bg: #0f1117;
@@ -337,8 +337,15 @@
 <body>
 
 <header>
-  <h1>🌍 出发团伙专用汇率转换器</h1>
-  <p>出发团伙 · 中美日韩新泰</p>
+  <h1>🌍 出发团伙工具箱</h1>
+  <p>出发团伙 · 实用小工具集合</p>
+  
+  <!-- 工具导航 -->
+  <div style="display:flex;gap:10px;justify-content:center;margin:16px 0;flex-wrap:wrap">
+    <a href="index.html" style="background:linear-gradient(135deg, var(--accent), var(--accent2));color:#fff;padding:8px 20px;border-radius:20px;text-decoration:none;font-size:14px;font-weight:600">💱 汇率转换</a>
+    <a href="fitness-guide/index.html" style="background:var(--card2);border:1px solid var(--border);color:var(--text);padding:8px 20px;border-radius:20px;text-decoration:none;font-size:14px;font-weight:600;transition:all .2s" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">💪 健身指南</a>
+  </div>
+  
   <div class="update-time">
     <span class="dot"></span>
     <span id="update-label">汇率加载中...</span>
